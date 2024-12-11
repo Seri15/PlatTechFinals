@@ -1,0 +1,171 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+    --primary: #2c3e50; /* Dark Blue */
+    --black: #000;
+    --light-gray: #ecf0f1;
+    --text-color: #333;
+    --highlight: #3498db; /* Highlight Blue */
+    --button-color: #f2098d; /* Pink */
+    --hover-button-color: #e74c3c; /* Hover Blue */
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--black); /* Black background */
+    color: var(--light-gray); /* Light gray text */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar nav ul li a.active {
+    background-color: var(--highlight); /* Blue active state */
+    border-radius: 5px;
+}
+
+.navbar nav ul li a:hover {
+    background-color: var(--hover-button-color); /* Darker blue on hover */
+    border-radius: 5px;
+}
+
+/* About Section Styles */
+#about {
+    background-color: var(--black); /* Black background */
+    padding: 80px 20px;
+    color: var(--highlight); /* Light text color */
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: var(--highlight); /* White text for headings */
+}
+
+#about h3 {
+    font-size: 2rem;
+    margin-top: 30px;
+    color: var(--highlight); /* Highlight Blue */
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 10px;
+    color: #ddd; /* Light grey text */
+}
+
+/* Skills Section Styles */
+.skills ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.skills li {
+    font-size: 1.2rem;
+    color: var(--light-gray);
+    margin-bottom: 5px;
+}
+
+/* Success Message */
+.success-message {
+    color: green;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    left: 10px; /* Positions the icons at the bottom left */
+    z-index: 1000;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem; /* Adjusted width */
+    height: 3rem; /* Adjusted height */
+    background-color: transparent;
+    border: 0.2rem solid var(--highlight);
+    font-size: 1.5rem; /* Smaller icon size */
+    border-radius: 5px; /* Makes the icon's border rectangular with rounded corners */
+    margin: 0 1rem; /* Adjusts spacing between icons */
+    transition: 0.3s ease;
+    color: var(--highlight);
+}
+
+.social-icons a:hover {
+    color: black;
+    transform: scale(1.2) translateY(-5px); /* Slightly smaller hover effect */
+    background-color: #b74b4b;
+    box-shadow: 0 0 15px var(--highlight);
+}
+
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #about {
+        padding: 50px 10px;
+    }
+
+    #about h2 {
+        font-size: 2rem;
+    }
+
+    #about h3 {
+        font-size: 1.5rem;
+    }
+
+    #about p {
+        font-size: 1rem;
+    }
+
+    .social-icons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

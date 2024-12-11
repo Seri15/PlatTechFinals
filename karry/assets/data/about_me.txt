@@ -1,0 +1,11 @@
+Hello, I'm Karry James B. Omay, but you can call me James. I'm 20 years old and currently in my second year of studying Information Technology at Universidad de Dagupan. With a passion for creativity and technology, I'm working towards becoming a skilled web developer or graphic designer.
+---
+The tools I use include VS Code for coding and development, Figma for designing user interfaces and prototypes, and Canva for creating graphics and visual content.
+---
+As a second-year Information Technology student at Universidad de Dagupan, I am continuously developing my skills in web development, programming, and graphic design. I have gained valuable practical experience through various class projects and assignments, including this current project, as well as past projects I have worked on.
+---
+I’m currently a second-year IT student at Universidad de Dagupan. I’m building my skills in UI/UX design, web development, and problem-solving. I enjoy creating user-friendly designs, developing websites, and tackling problems with algorithms.
+---
+
+---
+assets/images/achievement_image.jpg

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: white;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #333;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a span {
+    color: green;
+    transition: all 0.3s ease;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: green;
+}
+
+.about {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about .max-width {
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+.mission, .about-text {
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mission h2, .about-text h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.mission p, .about-text p {
+    font-size: 18px;
+    color: #666;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .max-width {
+    font-family: sans-serif;
+    font-size: 16px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Information ChatBot</title>
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <div class="bot-message">Welcome to the Rental Information ChatBot!</div>
+        </div>
+        <div class="input-box" id="input-box">
+            <!-- Initial set of question buttons -->
+            <div id="initial-buttons">
+                <button class="user-option" data-next="monthly-rent">What is the monthly rent for the property?</button>
+                <button class="user-option" data-next="utilities-fees">Does the rent include any utilities or additional fees?</button>
+                <button class="user-option" data-next="rules-regulations">Are there any specific rules or regulations for tenants?</button>
+                <button class="user-option" data-next="lease-duration">What is the duration of the lease agreement?</button>
+                <button class="user-option" data-next="price-range">What is the price range for the property?</button>
+                <button class="user-option" data-next="features">What are some interesting features of the place?</button>
+            </div>
+
+            <!-- Follow-up set of question buttons for monthly rent -->
+            <div id="follow-up-monthly-rent" style="display: none;">
+                <button class="user-option" data-next="payment-method">What payment methods are accepted?</button>
+                <button class="user-option" data-next="late-fee">Is there a late fee policy?</button>
+                <button class="back-button">Back to main questions</button>
+            </div>
+
+            <!-- Follow-up set of question buttons for utilities and fees -->
+            <div id="follow-up-utilities-fees" style="display: none;">
+                <button class="user-option" data-next="included-utilities">Which utilities are included?</button>
+                <button class="user-option" data-next="additional-fees">Are there any additional fees?</button>
+                <button class="back-button">Back to main questions</button>
+            </div>
+
+            <!-- Follow-up set of question buttons for rules and regulations -->
+            <div id="follow-up-rules-regulations" style="display: none;">
+                <button class="user-option" data-next="guest-policy">Is there a guest policy?</button>
+                <button class="user-option" data-next="noise-policy">Is there a noise policy?</button>
+                <button class="back-button">Back to main questions</button>
+            </div>
+
+            <!-- Add more follow-up question sets here for each initial question -->
+            
+            
+            <div id="follow-up-lease-duration" style="display: none;">
+                <button class="user-option" data-next="sublease-policy">Is subleasing allowed?</button>
+                <button class="user-option" data-next="early-termination">Is there an early termination policy?</button>
+                <button class="back-button">Back to main questions</button>
+            </div>
+            
+            <div id="follow-up-price-range" style="display: none;">
+                <button class="user-option" data-next="price-range-details">Can you provide more details about the price range?</button>
+                <button class="user-option" data-next="price-negotiable">Is the price negotiable?</button>
+                <button class="back-button">Back to main questions</button>
+            </div>
+
+            <!-- Follow-up set of question buttons for features -->
+            <div id="follow-up-features" style="display: none;">
+                <button class="user-option" data-next="common-areas">Are there any common areas available?</button>
+                <button class="user-option" data-next="security-features">What security features are available?</button>
+                <button class="back-button">Back to main questions</button>
+            </div>
+            
+            <div id="follow-up-sublease-policy" style="display: none;">
+                <button class="user-option" data-next="sublease-terms">What are the terms for subleasing?</button>
+                <button class="back-button">Back to main questions</button>
+            </div>
+
+            <!-- Follow-up set of question buttons for early termination -->
+            <div id="follow-up-early-termination" style="display: none;">
+                <button class="user-option" data-next="early-termination-fee">Is there a fee for early termination?</button>
+                <button class="user-option" data-next="termination-notice">How much notice is required for termination?</button>
+                <button class="back-button">Back to main questions</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="chatbot.js"></script>
+</body>
+</html>

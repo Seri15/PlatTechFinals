@@ -1,0 +1,223 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+ }
+ 
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+ }
+ 
+ body{
+    background: #eee;
+ }
+ 
+ .container{
+    max-width: 2000px;
+    margin:0 auto;
+    padding:10rem 8rem;
+ }
+ 
+ .container .title{
+    font-size: 3.5rem;
+    color:#444;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+ }
+ 
+ .container .bedrooms-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:2rem;
+ }
+ 
+ .container .bedrooms-container .bedroom{
+    text-align: center;
+    padding:3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    outline: .1rem solid #ccc;
+    outline-offset: -1.5rem;
+    cursor: pointer;
+ }
+ 
+ .container .bedrooms-container .bedroom:hover{
+    outline: .2rem solid #222;
+    outline-offset: 0;
+ }
+ 
+ .container .bedrooms-container .bedroom img{
+    height: 50rem;
+    width: 33rem;
+ }
+ 
+ .container .products-container .bedroom:hover img{
+    transform: scale(.9);
+ }
+ 
+ .container .products-container .bedroom h3{
+    padding:.5rem 0;
+    font-size: 2rem;
+    color:#444;
+ }
+ 
+ .container .products-container .bedroom:hover h3{
+    color:#27ae60;
+ }
+ 
+ .container .products-container .bedroom .person{
+    font-size: 2rem;
+    color:#444;
+ }
+ 
+ .bedrooms-preview{
+    position: fixed;
+    top:0; left:0;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .bedrooms-preview .preview{
+    display: none;
+    padding:2rem;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    margin:2rem;
+    width: 40rem;
+ }
+ 
+ .bedrooms-preview .preview.active{
+    display: inline-block;
+ }
+ 
+ .bedrooms-preview .preview img{
+    height: 30rem;
+    width: 35rem;
+ }
+ 
+ .bedrooms-preview .preview .fa-times{
+    position: absolute;
+    top:1rem; right:1.5rem;
+    cursor: pointer;
+    color:#444;
+    font-size: 4rem;
+ }
+ 
+ .bedrooms-preview .preview .fa-times:hover{
+    transform: rotate(90deg);
+ }
+ 
+ .bedrooms-preview .preview h3{
+    color:#444;
+    padding:.5rem 0;
+    font-size: 2.5rem;
+ }
+ 
+ .bedrooms-preview .preview .stars{
+    padding:1rem 0;
+    font-size: 1.7rem;
+ }
+ 
+ .bedrooms-preview .preview .stars i{
+    color:#27ae60;
+ }
+ 
+ .bedrooms-preview .preview .stars span{
+    color:#999;
+ }
+ 
+ .bedrooms-preview .preview p{
+    line-height: 1.5;
+    padding:1rem 0;
+    font-size: 1.6rem;
+    color:#777;
+ }
+ 
+ .bedrooms-preview .preview .price{
+    padding:1rem 0;
+    font-size: 2.5rem;
+    color:#27ae60;
+ }
+ 
+ .bedrooms-preview .preview .buttons{
+    display: flex;
+    gap:1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+ }
+ 
+ .bedrooms-preview .preview .buttons a{
+    flex:1 1 16rem;
+    padding:1rem;
+    font-size: 1.8rem;
+    color:#444;
+    border:.1rem solid #444;
+ }
+ 
+ .bedrooms-preview .preview .buttons a.cart{
+    background: #444;
+    color:#fff;
+ }
+ 
+ .bedrooms-preview .preview .buttons a.cart:hover{
+    background: #111;
+ }
+ 
+ .bedrooms-preview .preview .buttons a.buy:hover{
+    background: #444;
+    color:#fff;
+ }
+ 
+ 
+ @media (max-width:991px){
+ 
+    html{
+       font-size: 55%;
+    }
+ 
+ }
+ 
+ @media (max-width:768px){
+ 
+    .bedrooms-preview .preview img{
+       height: 25rem;
+    }
+ 
+ }
+ 
+ @media (max-width:450px){
+ 
+    html{
+       font-size: 50%;
+    }
+ 
+ }
+
+ .button {
+   display: inline-block;
+   background: green;
+   color: white;
+   font-weight: 500;
+   font-size: 20px;
+   padding: 10px 30px;
+   margin-bottom: 200px;
+   margin-left: 600px;
+   border-radius: 6px;
+   border: 2px solid green;
+   transition: all 0.3s ease;
+}
+.button:hover {
+   color: green;
+   background: none;
+}

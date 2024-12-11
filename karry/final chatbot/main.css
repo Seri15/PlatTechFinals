@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: white;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.navbar .sticky {
+    padding: 15px 0;
+    background: green;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: hwb(120 57% 18%);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a span {
+    color: green;
+    transition: all 0.3s ease;
+}
+
+.navbar .sticky .logo a span {
+    color: hwb(120 57% 18%);
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: hwb(120 57% 18%);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .sticky .menu li a:hover {
+    color: green;
+}
+
+/* Section Styling */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 60px 0;
+}
+
+.home {
+    background: url(pic/glass.jpg) no-repeat center center/cover;
+}
+
+.rental {
+    background-color: #333;
+}
+
+.about {
+    background-color: #fff;
+}
+
+.help {
+    background-color: #333;
+}
+
+.contact {
+    background-color: #fff;
+}
+
+/* Title Styling */
+.title {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Content Styling */
+.rental .rental-content,
+.about .about-content,
+.help .help-content,
+.contact .contact-content {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rental .rental-content .left {
+    width: 65%;
+    display: flex;
+    aspect-ratio: 1 / 1;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+
+.rental .rental-content .left img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.rental-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.rental .rental-content .right {
+    width: 55%;
+    margin-top: 20px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    background: green;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid green;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    color: green;
+    background: none;
+}
+
+/* About and Help Section Styling */
+.about .about-content,
+.help .help-content {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about .about-content p,
+.help .help-content p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.help .help-content a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section Styling */
+.contact .max-width {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact .contact-content {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact .contact-content span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .max-width {
+    font-family: sans-serif;
+    font-size: 16px;
+}

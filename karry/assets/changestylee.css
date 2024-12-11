@@ -1,0 +1,156 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #2c3e50; /* Dark Blue */
+    --black: #000;
+    --light-gray: #ecf0f1;
+    --text-color: #333;
+    --highlight: #3498db; /* Highlight Blue */
+    --button-color: #f2098d; /* Pink */
+    --hover-button-color: #e74c3c;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--black);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar nav ul li a.active {
+    background-color: var(--highlight); /* Blue active state */
+    border-radius: 5px;
+}
+
+.navbar nav ul li a:hover {
+    background-color: var(--hover-button-color); /* Darker blue on hover */
+    border-radius: 5px;
+}
+
+/* Profile Section */
+#change-profile {
+    padding: 80px 20px;
+    color: var(--light-gray);
+    text-align: center;
+}
+
+#change-profile h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--light-gray);
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--primary);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: var(--light-gray);
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: var(--light-gray);
+    color: var(--text-color);
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: var(--button-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--hover-button-color);
+}
+
+/* Success and Error Message Styles */
+.success-message, .error-message {
+    background-color: var(--highlight);
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.error-message {
+    background-color: #e74c3c; /* Red for error messages */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+    }
+
+    #change-profile h2 {
+        font-size: 2rem;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+    }
+}
