@@ -169,21 +169,21 @@ h3, p{
                     <p>"Time is Gold"</p>
                 </div></a>
                 <div class="feature">
-                    <a href="">
-                    <div class="icon" style="background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);"></div>
+                    <a href="/Oliver/index.html">
+                    <div class="icon" style="background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);"><img src="/karry/assets/images/oliverpic.jpg" alt="" style="height: 80%; "></div>
                     <h3>Mark Oliver Buduan</h3>
                     <p>"Striving for perfection in everything we do"</p>
                 </div></a>
                 <div class="feature">
-                    <a href="">
-                    <div class="icon" style="background: linear-gradient(135deg, #00c6ff, #0072ff, #2af598, #009efd);"></div>
+                    <a href="/railey/index.html">
+                    <div class="icon" style="background: linear-gradient(135deg, #00c6ff, #0072ff, #2af598, #009efd);"><img src="/karry/assets/images/railrypic.jpg" alt="" style="height: 80%;"></div>
                     <h3>Railey Aquino</h3>
                     <p>"Striving for perfection in everything we do"
                     </p>
                 </div></a>
                 <div class="feature">
-                    <a href="">
-                    <div class="icon" style="background: linear-gradient(135deg, #8e2de2, #4a00e0, #ff512f, #dd2476);"></div>
+                    <a href="/emmanuel/index.html">
+                    <div class="icon" style="background: linear-gradient(135deg, #8e2de2, #4a00e0, #ff512f, #dd2476);"><img src="/karry/assets/images/emmanpic.jpg" alt=""></div>
                     <h3>Mark Emmanuel Emplica</h3>
                     <p>"Striving for perfection in everything we do"</p>
                 </div></a>
