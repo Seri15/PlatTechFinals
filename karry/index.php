@@ -27,7 +27,7 @@
     </header>
 
     <section id="home" class="home">
-    <div style="position: relative; right: 800px; top: -60px;"><a href="/index.php"><img src="/karry/assets/images/return-white.png" alt="" style="width: 50px;"></a></div>
+    <div style="position: relative; right: 600px; top: -60px;"><a href="/index.php"><img src="/karry/assets/images/return-white.png" alt="" style="width: 50px;"></a></div>
     <div class="container">
         <div class="intro">
             <div class="intro-text">
