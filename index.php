@@ -169,7 +169,7 @@ h3, p{
                     <p>"Time is Gold"</p>
                 </div></a>
                 <div class="feature">
-                    <a href="/Oliver/index.html">
+                    <a href="/Oliver/index.php">
                     <div class="icon" style="background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);"><img src="/karry/assets/images/oliverpic.jpg" alt="" style="height: 80%; "></div>
                     <h3>Mark Oliver Buduan</h3>
                     <p>"Bossing!!"</p>
