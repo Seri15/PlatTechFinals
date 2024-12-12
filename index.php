@@ -182,7 +182,7 @@ h3, p{
                     </p>
                 </div></a>
                 <div class="feature">
-                    <a href="/emmanuel/index.html">
+                    <a href="/emmanuel/home.php">
                     <div class="icon" style="background: linear-gradient(135deg, #8e2de2, #4a00e0, #ff512f, #dd2476);"><img src="/karry/assets/images/emmanpic.jpg" alt=""></div>
                     <h3>Mark Emmanuel Emplica</h3>
                     <p>"Isang Patak Isang Katotak"</p>
