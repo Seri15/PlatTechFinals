@@ -32,6 +32,7 @@
         </header>
 
         <section id="home" class="hero">
+        <div style="position: relative; right: 600px; top: -100px;"><a href="/index.php"><img src="/karry/assets/images/return-white.png" alt="" style="width: 50px;"></a></div>
             <div class="container hero-content">
                 <div class="text-section">
                     <p class="hero-greeting">Hello, Welcome to my Portfolio!</p>
