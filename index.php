@@ -175,7 +175,7 @@ h3, p{
                     <p>"Bossing!!"</p>
                 </div></a>
                 <div class="feature">
-                    <a href="/railey/index.html">
+                    <a href="/railey/RCA/home.php">
                     <div class="icon" style="background: linear-gradient(135deg, #00c6ff, #0072ff, #2af598, #009efd);"><img src="/karry/assets/images/railrypic.jpg" alt="" style="height: 80%;"></div>
                     <h3>Railey Aquino</h3>
                     <p>"Kamusta ang buhay buhay"

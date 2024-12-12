@@ -1,0 +1,36 @@
+{
+    "subTitle": "Soft Skillings",
+    "subDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+    "softskills": [
+        {
+            "identity": 1,
+            "subtitle": "Teamwork",
+            "subdescription": "                            Ability to work collaboratively with others."
+        },
+        {
+            "identity": 2,
+            "subtitle": "Communicating",
+            "subdescription": "                            Strong verbal and written communication skills."
+        },
+        {
+            "identity": 3,
+            "subtitle": "Problem Solving",
+            "subdescription": "                            Ability to identify and solve problems efficiently."
+        },
+        {
+            "identity": 4,
+            "subtitle": "Adaptability",
+            "subdescription": "                            Ability to adjust to new conditions and environments."
+        },
+        {
+            "identity": 5,
+            "subtitle": "Persistent",
+            "subdescription": "                            ability to not give up easily"
+        },
+        {
+            "identity": 6,
+            "subtitle": "Work Ethic",
+            "subdescription": "                     Demonstrates strong commitment to responsibilities."
+        }
+    ]
+}

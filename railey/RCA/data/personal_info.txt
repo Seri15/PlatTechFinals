@@ -1,0 +1,1 @@
+{"full_name":"Railey Clores Aquino","birthday":"September 10, 2002","place_of_birth":"Dagupan City, Pangasinan ","current_residence":"A.B. Fernandez East, Dagupan City, Pangasinan","nationality":"Filipino","languages_spoken":"English, Filipino"}

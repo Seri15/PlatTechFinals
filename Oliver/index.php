@@ -25,7 +25,6 @@
   </nav>
 
   <section id="home" class="full-page">
-  <div style="position: relative; right: 600px; top: -200px;"><a href="/index.php"><img src="/karry/assets/images/return-black.png" alt="" style="width: 50px;"></a></div>
     <div class="home-content">
       <h1>Welcome to My Portfolio</h1>
       <p>Building the future, one line of code at a time.</p>
@@ -35,12 +34,12 @@
   <section id="about" class="full-page">
     <img src="/Oliver/img/my pic.jpg" alt="Profile Picture">
     <h2>About Me</h2>
-    <p><?php echo file_get_contents('/Oliver/about.txt') ?: 'Content is not yet available.'; ?></p>
+    <p><?php echo file_get_contents('about.txt') ?: 'Content is not yet available.'; ?></p>
   </section>
 
   <section id="skills" class="full-page">
     <h2>Skills</h2>
-    <p><?php echo file_get_contents('Oliver/skills.txt') ?: 'Content is not yet available.'; ?></p>
+    <p><?php echo file_get_contents('skills.txt') ?: 'Content is not yet available.'; ?></p>
   </section>
 
   <section id="projects" class="full-page">
