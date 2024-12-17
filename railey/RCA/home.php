@@ -22,6 +22,7 @@ if (file_exists($contentFile)) {
   <header class="navbar">
     <nav>
       <ul class="nav-links">
+      <div style="position: relative; right: 200px; top: 0px;"><a href="/index.php"><img src="/karry/assets/images/return-black.png" alt="" style="width: 30px;"></a></div>
         <li><a href="home.php">Home</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="skills.php">Skills</a></li>
